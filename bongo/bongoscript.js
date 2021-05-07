@@ -17,11 +17,14 @@ window.addEventListener('keydown', (event) => {
     var image = document.querySelector('img');
     image.src = "./img/firstkey.png";
     copyImageToCanvas();
+    var audio = new Audio('firstkey.mp3');
+    audio.play();
 
     setTimeout(() => {
       var image = document.querySelector('img');
       image.src = "./img/armsup.png";
       copyImageToCanvas();
+
 }, 100);
   }
 })
@@ -31,6 +34,8 @@ window.addEventListener('keydown', (event) => {
     var image = document.querySelector('img');
     image.src = "./img/secondkey.png";
     copyImageToCanvas();
+    var audio = new Audio('secondkey.mp3');
+    audio.play();
 
     setTimeout(() => {
       var image = document.querySelector('img');
@@ -45,6 +50,9 @@ window.addEventListener('keydown', (event) => {
     var image = document.querySelector('img');
     image.src = "./img/thirdkey.png";
     copyImageToCanvas();
+    var audio = new Audio('thirdkey.mp3');
+    audio.play();
+
 
     setTimeout(() => {
       var image = document.querySelector('img');
@@ -59,6 +67,8 @@ window.addEventListener('keydown', (event) => {
     var image = document.querySelector('img');
     image.src = "./img/fourthkey.png";
     copyImageToCanvas();
+    var audio = new Audio('fourthkey.mp3');
+    audio.play();
 
     setTimeout(() => {
       var image = document.querySelector('img');
@@ -73,6 +83,8 @@ window.addEventListener('keydown', (event) => {
     var image = document.querySelector('img');
     image.src = "./img/fifthkey.png";
     copyImageToCanvas();
+    var audio = new Audio('fifthkey.mp3');
+    audio.play();
 
     setTimeout(() => {
       var image = document.querySelector('img');
@@ -87,6 +99,8 @@ window.addEventListener('keydown', (event) => {
     var image = document.querySelector('img');
     image.src = "./img/sixthkey.png";
     copyImageToCanvas();
+    var audio = new Audio('sixthkey.mp3');
+    audio.play();
 
     setTimeout(() => {
       var image = document.querySelector('img');
